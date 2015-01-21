@@ -1,6 +1,6 @@
 {
     "name": "buchin/kamfret",
-    "description": "Sebuah package laravel untuk memudahkan pembuatan aplikasi registrasi dan verifikasi sidik jari memakai FlexcodeSDK",
+    "description": "FlexcodeSDK for Laravel 4",
     "authors": [
         {
             "name": "Mochammad Masbuchin",
