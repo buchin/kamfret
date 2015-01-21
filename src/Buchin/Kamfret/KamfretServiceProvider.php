@@ -19,6 +19,7 @@ class KamfretServiceProvider extends ServiceProvider {
 	public function boot()
 	{
 		$this->package('buchin/kamfret');
+		include __DIR__.'/../../routes.php';
 	}
 
 	/**
@@ -29,6 +30,11 @@ class KamfretServiceProvider extends ServiceProvider {
 	public function register()
 	{
 		//
+		$this->app['kamfret'] = $this->app->share(function($app)
+        {
+            return new Kamfret;
+        });
+
 	}
 
 	/**
@@ -38,7 +44,7 @@ class KamfretServiceProvider extends ServiceProvider {
 	 */
 	public function provides()
 	{
-		return array();
+		return array('kamfret');
 	}
 
 }

@@ -1,10 +1,10 @@
 {
     "name": "buchin/kamfret",
-    "description": "",
+    "description": "Sebuah package laravel untuk memudahkan pembuatan aplikasi registrasi dan verifikasi sidik jari memakai FlexcodeSDK",
     "authors": [
         {
-            "name": "",
-            "email": ""
+            "name": "Mochammad Masbuchin",
+            "email": "buchin@dropsugar.com"
         }
     ],
     "require": {
