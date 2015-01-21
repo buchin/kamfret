@@ -20,6 +20,10 @@ Next, open `app/config/app.php`, and add a new item to the providers array.
 
     'Buchin\Kamfret\KamfretServiceProvider'
 
+Don't forget to add Kamfret in your Alias list in app/config/app.php
+
+    'Kamfret'    => 'Buchin\Kamfret\Facades\Kamfret'
+
 Then publish buchin/kamfret config
 
     php artisan config:publish buchin/kamfret
