@@ -1,5 +1,8 @@
 # FlexcodeSDK for Laravel 4
 
+*Unmantained*. 
+I'm currently have no time to maintain this repo. If you are interested in maintaining this repo, please let me know. 
+
 ## Installation
 Begin by installing this package via Composer. Edit your project's `composer.json` file to require `buchin/kamfret`
 
